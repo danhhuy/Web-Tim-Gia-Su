@@ -1,0 +1,187 @@
+<?php 
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title Page-->
+    <title>Đăng kí</title>
+
+    <!-- Icons font CSS-->
+    <link href="../assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="../assets/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../assets/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="../assets/css/main-login-register.css" rel="stylesheet" media="all">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../assets/css/maicons.css">
+  
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+  
+    <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.min.css">
+  
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+  
+    <link rel="stylesheet" href="../assets/css/mobster.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-floating">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/favicon-light.png" alt="" width="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-lg-5 mt-3 mt-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" >Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newclass.html">Lớp mới</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="giasu.html">Gia sư</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="phuhuynh.html">Phụ huynh</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="about.html">Giới thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <main class="bg-light">
+      
+      <div class="page-hero-section bg-image hero-mini" style="background-image: url(../assets/img/hero_mini.svg);">
+      </div>
+
+    <div class="page-wrapper  p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Đăng kí</h2>
+                    <form method="POST" >
+                        <div class="row-space">
+                            <div class="">
+                                <div class="input-group">
+                                    <label class="label">Họ</label>
+                                    <input class="input--style-4" type="text" name="first_name">
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="input-group">
+                                    <label class="label">Tên</label>
+                                    <input class="input--style-4" type="text" name="last_name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            
+                            <div class="">
+                                <div class="input-group">
+                                    <label class="label">Giới tính</label>
+                                    <div class="p-t-10">
+                                        <label class="radio-container m-r-45">Nam
+                                            <input type="radio" checked="checked" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Nữ
+                                            <input type="radio" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Email</label>
+                                    <input class="input--style-4" type="email" name="email">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Số điện thoại</label>
+                                    <input class="input--style-4" type="text" name="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2 ">
+                                <div class="input-group">
+                                    <div class="form-group">
+                                      <label class="label" for="">Mật khẩu</label>
+                                      <input type="password" class="input--style-4" name="" id="" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                        <label class="label" for="">Nhập lại mật khẩu</label>
+                                        <input type="password" class="input--style-4" name="" id="" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Đối tượng</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="subject">
+                                    <option disabled="disabled" selected="selected">Lựa chọn</option>
+                                    <option>Gia sư</option>
+                                    <option>Phụ huynh</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="label">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>Tôi đồng ý với   <a href="#" class="" style="text-decoration: none;">Điều khoản dịch vụ</a></label>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit"><a href="index2.html" class="nav-label"> Đăng kí</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="../assets/vendor/select2/select2.min.js"></script>
+    <script src="../assets/vendor/datepicker/moment.min.js"></script>
+    <script src="../assets/vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="../assets/js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
