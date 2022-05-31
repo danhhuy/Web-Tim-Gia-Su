@@ -1,2 +1,2 @@
 # Web-Tim-Gia-Su
-Project mang tính làm quen với môn học KTPM.
+Project môn học Kỹ Thuật Phần mềm và Ứng dụng.
